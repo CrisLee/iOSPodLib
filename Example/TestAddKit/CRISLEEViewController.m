@@ -8,6 +8,8 @@
 
 #import "CRISLEEViewController.h"
 
+#import <AddTest.h>
+
 @interface CRISLEEViewController ()
 
 @end
@@ -24,6 +26,8 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    [AddTest addTest];
 }
 
 @end

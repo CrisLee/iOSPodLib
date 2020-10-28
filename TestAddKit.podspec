@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lx_850818@163.com/TestAddKit'
+  s.homepage         = 'https://github.com/CrisLee/iOSPodLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lx_850818@163.com' => '702056280@qq.com' }
-  s.source           = { :git => 'https://github.com/lx_850818@163.com/TestAddKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CrisLee/iOSPodLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'TestAddKit/Classes/**/*'
   

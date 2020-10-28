@@ -1,0 +1,6 @@
+framework module TestAddKit {
+  umbrella header "TestAddKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
